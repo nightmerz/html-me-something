@@ -1,0 +1,67 @@
+body, html{
+  background-color:orangered;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Merriweather', serif;
+}
+a {color: yellow;text-decoration: none;}
+header{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  overflow: hidden;
+}
+
+header .site_title{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+header ul{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 15px;
+  margin: 0;
+  float: right;
+  overflow: hidden;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+header ul li{
+  font-weight: bold;
+  font-size: 15px;
+  display: inline-block;
+  float: left;
+  margin-right: 25px;
+}
+
+section{
+  padding: 10px 30px;
+}
+
+section#left_section{
+  float: left;
+  width: 70px;
+height: 658px;
+  background-color: burlywood;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+section#right_section{
+  float: left;
+  
+  width: 65%;
+  margin-left: 20px;
+}
+br{clear:both;}
+footer{min-width: 100%
+border:1px solid;
+padding:10px 20px;
+background-color:red;
+color:white;
+text-align:center;
+
+}
